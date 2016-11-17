@@ -30,7 +30,7 @@ namespace TextCrypterCSWF
             }
             if ((CBencoding.SelectedItem.ToString()).ToLower().Contains("ascii"))
                 EncryptByAscii();
-            else if ((CBencoding.SelectedItem.ToString()).ToLower().Contains("unicode"))
+            else if ((CBencoding.SelectedItem.ToString()).ToLower().Contains("TABLE"))
                 EncryptByUnicode();
             this.Validate();
         }
