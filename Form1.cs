@@ -17,7 +17,7 @@ namespace TextCrypterCSWF
             LBbias.BackColor = Color.Transparent;
             LBbias.ForeColor = Color.White;
             LBPassword.ForeColor = Color.White;
-            CBencoding.SelectedIndex = 1;
+            CBencoding.SelectedIndex = 0;
             
         }
 
