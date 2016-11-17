@@ -25,7 +25,7 @@ namespace TextCrypterCSWF
         {
             if (string.IsNullOrEmpty(TBInput.Text) || string.IsNullOrEmpty(PasswordBox.Text))
             {
-                MessageBox.Show("Pasword or Input are empty");
+                MessageBox.Show("Pasword or Input are empty" );
                 return;
             }
             if ((CBencoding.SelectedItem.ToString()).ToLower().Contains("ascii"))
@@ -46,7 +46,7 @@ namespace TextCrypterCSWF
             string input = TBInput.Text.ToLower();
             string password = PasswordBox.Text.ToLower();
             int j = 0;
-            for (int i = 0; i < input.Length -1; i++)
+            for (int i = 0; i < input.Length ; i++)
             {
                 if (input[i] == ' ')
                 {
